@@ -1,0 +1,40 @@
+# JavaScript 101
+
+## Contents
+- Primitive types
+  - Number
+  - Boolean
+  - String
+  - Array
+  - Type conversion
+- Operators
+  - Comparison and equality operators
+  - Arithmetic operators
+  - Logical operators
+- Control Structures
+  - `if ... else if ... else ...`
+  - `switch`
+  - `for` loop
+  - `while` and `do while` loops
+- Functions
+  - Declaration
+  - Call
+  - Function hoisting
+  - Anonymous self-invoking function
+  - Optional parameters
+  - Arguments array
+  - Recursion
+  - Lambda notation
+- Scopes
+  - `var`, `let`, `const`
+  - Pass function as parameterr
+  - Callback pattern
+  - Call by value vs. call by reference
+- Objects
+  - Declaration
+  - Object scope and `this`
+  - Functions and objects
+  - Functions as objects
+  - `new` operator
+  - `call()` and `apply()`
+- Prototypes
