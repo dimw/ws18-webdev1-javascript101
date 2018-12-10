@@ -110,6 +110,56 @@
          ```
           
     Source: [MDN new operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+    
+## Functions as objects
+The value of a key in an object can be a function.<br><br>Example:
+    
+            let dog = {
+                bark: function() {
+                    alert("Wuff");
+                }
+            }
+            let bark = dog.bark();
+            
+## 'new' operator 
+An object can be created with a constructor-method.<br><br>Example:
+    
+            class dog {
+                    constructor (breed, age, name, castrated) {
+                        this.breed = breed;
+                        this.age = age;
+                        this.name = name;
+                        this.castrated = castrated;
+                    }
+            }
+            let newDog = new dog('Rodweiler', 3, 'Fluffy', true);
+            
+## call() 
+A function (as a value) can be called with the object's name and the key.<br><br>Example:
+    
+            let dog = {
+                name: 'Fluffy',
+                greeting: 'Wuff',
+                bark: function() {
+                    return this.greeting;
+                }
+            }
+            let bark = dog.bark();
+            
+## apply() 
+A function (as a value) can be applied to other external class objects.<br><br>Example:
+    
+            let address = {
+                bark: function() {
+                    return this.greeting;
+                }
+            }
+            let dog = {
+                name: 'Fluffy',
+                greeting: 'Wuff'
+            }
+            
+            address.bark().apply(dog);
  
  ## Control Structures
  ### If - Else If - Else
