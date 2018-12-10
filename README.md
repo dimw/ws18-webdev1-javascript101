@@ -39,7 +39,7 @@
   - `call()` and `apply()`
 - Prototypes
 
-##Control Structures
+## Control Structures
 ### If - Else If - Else
 #### General Structure
 ```js
@@ -65,7 +65,7 @@ if (condition1) {
       }
 ```
 
-######Console
+###### Console
    
 ```bash
   Else if was true
@@ -116,7 +116,7 @@ switch (ValueToSwitch) {
    console.log(day)
 ```
 
-######Console
+###### Console
    
 ```bash
   This is not a week day
@@ -142,7 +142,7 @@ for (let i = 0; i < 5; i++) {
 console.log(text)
 ```
 
-######Console
+###### Console
    
 ```bash
   The number is 0
@@ -182,7 +182,7 @@ while (i < 10) {
 console.log(text)
 ```
 
-######Console
+###### Console
    
 ```bash
 	The number is 0
