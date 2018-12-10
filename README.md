@@ -381,3 +381,66 @@ A function (as a value) can be applied to other external class objects.<br><br>E
  > The function above will be executed with `window`, `document`, and `jQuery` as it's parameters. Inside the function, we can access the paramers as `w`, `d` and `$`.
  
  [Source](https://blog.mgechev.com/2012/08/29/self-invoking-functions-in-javascript-or-immediately-invoked-function-expression/)
+ 
+ ## Functions
+ 
+ ### Function Declaration
+ 
+ ##### Syntax:
+ ````javascript
+ function sum(a, b) {
+   return a + b;
+ }
+ ````
+ 
+ A Function Declaration is usable in the whole script.
+ When JavaScript prepares to run the script or a code block, it first looks for Function Declarations in it and creates the functions.
+ 
+ Meaning, a function declared as a Function Declaration can be called earlier than it is defined.
+ 
+ 
+ For example:
+ ```javascript
+ sayHi("John");
+ 
+ function sayHi(name) {
+   alert( `Hello, ${name}` );
+ }
+ ```
+ When a Function Declaration is made within a code block, it is visible everywhere inside that block. But not outside of it.
+ 
+ ### Function Expression
+ 
+ ##### Syntax:
+ 
+ ```javascript
+ let sum = function(a, b) {
+   return a + b;
+ };
+ ```
+ 
+ A Function Expression is created when the execution reaches it and is usable from then on, but we can assign a function to a variable that is declared outside of a block.
+  
+ For example:
+ ````javascript
+ let age = prompt("What is your age?", 18);
+ 
+ let welcome;
+ 
+ if (age < 18) {
+ 
+   welcome = function() {
+     alert("Hello!");
+   };
+ 
+ } else {
+ 
+   welcome = function() {
+     alert("Greetings!");
+   };
+ 
+ }
+ 
+ welcome();
+ ````
+ [Source: https://javascript.info/function-expressions-arrows]
