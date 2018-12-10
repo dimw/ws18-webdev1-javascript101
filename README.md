@@ -38,3 +38,27 @@
   - `new` operator
   - `call()` and `apply()`
 - Prototypes
+
+##Documentation
+#### Objects
+ - `new` operator:
+   - The new operator creates an instance of a user-defined object type or of one of the built-in object types that has a constructor function. The new keyword does the following 4 things: 
+        1. It creates a brand new object out of thin air.
+        2. It links this object to another object.
+        3. The newly created object from Step 1 gets passed as the this context.
+        4. If the function doesn't return it's own object, this is returned.
+        
+        ```
+        function Car(make, model, year) {
+                      this.make = make;
+                      this.model = model;
+                      this.year = year;
+        }
+                    
+        var car1 = new Car('Eagle', 'Talon TSi', 1993);
+           
+        console.log(car1.make);
+        // expected output: "Eagle"
+        ```
+         
+   Source: [MDN new operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
