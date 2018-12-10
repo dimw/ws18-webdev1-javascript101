@@ -38,3 +38,22 @@
   - `new` operator
   - `call()` and `apply()`
 - Prototypes
+## Documentation
+####  Operators
+  - Comparison and equality operators
+    - Comparison operators output true or false by comparing values.
+    ```
+    >, <, >=, <=, ===, and !==
+    ```
+  - Arithmetic operators
+    - Arithmetic operators take numerical values (either literals or variables) as their operands and return a single numerical value.
+    ```
+    +, -, * and /
+    ```
+  - Logical operators
+    - Logical operators combine multiple Booleans or Values and output a single boolean.
+    ```
+    &&, ||, and !
+    ```
+    
+  _Source: [codeacademy/comparison_logical](https://www.codecademy.com/articles/fwd-js-comparison-logical) and [dev.moz/arithmetic_operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)_
