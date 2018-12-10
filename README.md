@@ -39,7 +39,7 @@
   - `call()` and `apply()`
 - Prototypes
 
-##Documentation
+## Documentation
 #### Objects
  - `new` operator:
    - The new operator creates an instance of a user-defined object type or of one of the built-in object types that has a constructor function. The new keyword does the following 4 things: 
