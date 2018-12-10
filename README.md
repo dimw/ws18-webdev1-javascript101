@@ -1,7 +1,7 @@
 # JavaScript 101
 
 ## Contents
-- ### Primitive types
+- **Primitive types**xs
     Is data that is not an object and has no methods.
   - `Number` : JavaScript has only one type of numbers. Numbers can be written with, or without decimals
   - `Boolean` : Boolean represents a logical entity and can have two values: true, and false
