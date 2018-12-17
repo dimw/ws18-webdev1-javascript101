@@ -51,4 +51,4 @@
   - Functions as objects
   - `new` operator
   - `call()` and `apply()`
-- Prototypes
+- Prototypez
