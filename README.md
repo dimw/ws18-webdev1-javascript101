@@ -1,7 +1,7 @@
 # JavaScript 101
 
 ## Contents
-- Primitive typez
+- Primitive types
   - Number
   - Boolean
   - String
@@ -34,6 +34,7 @@
            - Declaration:
                     Man nimmt einen Wert und deklariert ihn mit var, let oder const
                     Var a = 5;
+                    var car = {type:"Fiat", model:"500", color:"white"};
                         Resolves: Scopes `var`, `let`, `const`
 
            - Objects scope and this:
