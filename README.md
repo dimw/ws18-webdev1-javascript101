@@ -48,3 +48,7 @@
            - Function and Objects:
                     Über das Function -Objekt haben Sie Zugriff auf Eigenschaften einer JavaScript-Funktion.
                     New function(„Funktionsinhalt“,etc.)
+  - Functions as objects
+  - `new` operator
+  - `call()` and `apply()`
+- Prototypes
