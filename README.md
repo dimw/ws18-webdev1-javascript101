@@ -5,7 +5,7 @@
   - Number
   - Boolean
   - String
-  - Arrayz
+  - Array
   - Type conversion
 - Operators
   - Comparison and equality operators
