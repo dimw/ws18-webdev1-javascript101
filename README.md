@@ -31,7 +31,9 @@
   - Callback pattern
   - Call by value vs. call by reference
 - Objects
+
            - Declaration:
+
                     Man nimmt einen Wert und deklariert ihn mit var, let oder const
 
                     Var a = 5;
