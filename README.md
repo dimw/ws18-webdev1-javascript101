@@ -1,7 +1,7 @@
 # JavaScript 101
 
 ## Contents
-- Primitive types
+- Primitive typez
   - Number
   - Boolean
   - String
